@@ -4,6 +4,7 @@
 Let us create a new site and call it `library`.
 
 *Note: Before you create any new site, you need to activate the Barracuda storage engine on your MariaDB installation.*
+Open the 'my.cnf' file with 'nano /etc/mysql/mariadb.cnf'.
 *Copy the following default ERPNext database settings into your `my.cnf` file.*
 
     [mysqld]
