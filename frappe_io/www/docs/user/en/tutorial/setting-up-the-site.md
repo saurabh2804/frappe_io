@@ -17,6 +17,8 @@ Let us create a new site and call it `library`.
     [mysql]
     default-character-set = utf8mb4
 
+Restart the Mariadb by the command: 'systemctl restart mariadb.service'
+
 You can then install a new site, by the command `bench new-site library`.
 
 This will create a new database and site folder and install `frappe` (which is also an application!) in the new site. The `frappe` application has two built-in modules **Core** and **Website**. The Core module contains the basic models for the application. Frappe is a batteries included framework and comes with a lot of built-in models. These models are called **DocTypes**. More on that later.
